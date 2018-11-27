@@ -2,15 +2,15 @@
 Your chance to explore Loops and Turtles!
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Jack Wilson.
 """
 ########################################################################
-# TODO: 1.
+# DONE: 1.
 #   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -28,3 +28,39 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+import rosegraphics as rg
+window = rg.TurtleWindow()
+
+one = rg.SimpleTurtle('turtle')
+one.Pen = rg.Pen('black', 100)
+two = rg.SimpleTurtle('turtle')
+two.Pen = rg.Pen('black', 100)
+three = rg.SimpleTurtle('turtle')
+three.Pen = rg.Pen('black', 100)
+four = rg.SimpleTurtle('turtle')
+four.Pen = rg.Pen('black', 100)
+one.forward(200)
+one.right(90)
+one.forward(200)
+one.right(90)
+one.forward(200)
+two.right(90)
+two.forward(200)
+two.right(90)
+two.forward(200)
+two.right(90)
+two.forward(200)
+three.right(180)
+three.forward(200)
+three.right(90)
+three.forward(200)
+three.right(90)
+three.forward(200)
+four.right(270)
+four.forward(200)
+four.right(90)
+four.forward(200)
+four.right(90)
+four.forward(200)
+
+window.close_on_mouse_click()
