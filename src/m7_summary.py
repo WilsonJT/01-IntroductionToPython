@@ -45,13 +45,13 @@ window = rg.TurtleWindow()
 #
 ########################################################################
 RGB = rg.SimpleTurtle('turtle')
-RGB.Pen = rg.Pen('blue', 10)
+RGB.pen = rg.Pen('blue', 10)
 RGB.left(90)
 RGB.forward(200)
 RGB.pen_up()
 RGB.go_to(rg.Point(100, -40))
 RGB.pen_down()
-RGB.Pen = rg.Pen('green', 10)
+RGB.pen = rg.Pen('green', 10)
 RGB.right(180)
 RGB.forward(150)
 
